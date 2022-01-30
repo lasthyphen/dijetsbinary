@@ -4,12 +4,12 @@
 
 ---
 
-Node implementation for the [Avalanche](https://djtx.network) network -
+Node implementation for the [Dijets](https://dijets.io) network -
 a blockchains platform with high throughput, and blazing fast transactions.
 
 ## Installation
 
-Avalanche is an incredibly lightweight protocol, so the minimum computer requirements are quite modest.
+Dijets is an incredibly lightweight protocol, so the minimum computer requirements are quite modest.
 Note that as network usage increases, hardware requirements may change.
 
 - CPU: Equivalent of 8 AWS vCPU
@@ -24,28 +24,28 @@ Note that as network usage increases, hardware requirements may change.
 
 ### Native Install
 
-Clone the AvalancheGo repository:
+Clone the DijetsNetGo repository:
 
 ```sh
-git clone git@github.com:ava-labs/avalanchego.git
-cd avalanchego
+git clone git@github.com:lasthyphen/dijetsnetgo.git
+cd dijetsnetgo
 ```
 
 This will clone and checkout to `master` branch.
 
-#### Building the Avalanche Executable
+#### Building the Dijets Executable
 
-Build Avalanche using the build script:
+Build Dijets using the build script:
 
 ```sh
 ./scripts/build.sh
 ```
 
-The Avalanche binary, named `avalanchego`, is in the `build` directory.
+The Dijets binary, named `dijetsnetgo`, is in the `build` directory.
 
 ### Binary Repository
 
-Install AvalancheGo using an `apt` repository.
+Install DijetsGo using an `apt` repository.
 
 #### Adding the APT Repository
 
@@ -55,7 +55,7 @@ To add the repository on Ubuntu 18.04 (Bionic), run:
 
 ```sh
 sudo su -
-wget -O - https://downloads.djtx.network/avalanchego.gpg.key | apt-key add -
+wget -O - https://downloads.djtx.network/dijetsnetgo.gpg.key | apt-key add -
 echo "deb https://downloads.djtx.network/apt bionic main" > /etc/apt/sources.list.d/avalanche.list
 exit
 ```
@@ -64,31 +64,31 @@ To add the repository on Ubuntu 20.04 (Focal), run:
 
 ```sh
 sudo su -
-wget -O - https://downloads.djtx.network/avalanchego.gpg.key | apt-key add -
+wget -O - https://downloads.djtx.network/dijetsnetgo.gpg.key | apt-key add -
 echo "deb https://downloads.djtx.network/apt focal main" > /etc/apt/sources.list.d/avalanche.list
 exit
 ```
 
 #### Installing the Latest Version
 
-After adding the APT repository, install avalanchego by running:
+After adding the APT repository, install dijetsnetgo by running:
 
 ```sh
 sudo apt update
-sudo apt install avalanchego
+sudo apt install dijetsnetgo
 ```
 
 ### Binary Install
 
-Download the [latest build](https://github.com/ava-labs/avalanchego/releases/latest) for your operating system and architecture.
+Download the [latest build](https://github.com/lasthyphen/dijetsnetgo/releases/latest) for your operating system and architecture.
 
-The Avalanche binary to be executed is named `avalanchego`.
+The Dijets binary to be executed is named `dijetsnetgo`.
 
 ### Docker Install
 
 Make sure docker is installed on the machine - so commands like `docker run` etc. are available.
 
-Building the docker image of latest avalanchego branch can be done by running:
+Building the docker image of latest dijetsnetgo branch can be done by running:
 
 ```sh
 ./scripts/build_image.sh
@@ -100,20 +100,20 @@ To check the built image, run:
 docker image ls
 ```
 
-The image should be tagged as `avaplatform/avalanchego:xxxxxxxx`, where `xxxxxxxx` is the shortened commit of the Avalanche source it was built from. To run the avalanche node, run:
+The image should be tagged as `avaplatform/dijetsnetgo:xxxxxxxx`, where `xxxxxxxx` is the shortened commit of the Dijets source it was built from. To run the avalanche node, run:
 
 ```sh
-docker run -ti -p 9650:9650 -p 9651:9651 avaplatform/avalanchego:xxxxxxxx /avalanchego/build/avalanchego
+docker run -ti -p 9650:9650 -p 9651:9651 avaplatform/dijetsnetgo:xxxxxxxx /dijetsnetgo/build/dijetsnetgo
 ```
 
-## Running Avalanche
+## Running Dijets
 
 ### Connecting to Mainnet
 
-To connect to the Avalanche Mainnet, run:
+To connect to the Dijets Mainnet, run:
 
 ```sh
-./build/avalanchego
+./build/dijetsnetgo
 ```
 
 You should see some pretty ASCII art and log messages.
@@ -125,7 +125,7 @@ You can use `Ctrl+C` to kill the node.
 To connect to the Fuji Testnet, run:
 
 ```sh
-./build/avalanchego --network-id=fuji
+./build/dijetsnetgo --network-id=fuji
 ```
 
 ### Creating a Local Testnet
@@ -133,14 +133,14 @@ To connect to the Fuji Testnet, run:
 To create a single node testnet, run:
 
 ```sh
-./build/avalanchego --network-id=mainnet --staking-enabled=false --snow-sample-size=1 --snow-quorum-size=1
+./build/dijetsnetgo --network-id=mainnet --staking-enabled=false --snow-sample-size=1 --snow-quorum-size=1
 ```
 
-This launches an Avalanche network with one node.
+This launches an Dijets network with one node.
 
 ## Generating Code
 
-Avalanchego uses multiple tools to generate efficient and boilerplate code.
+DijetsNetGo uses multiple tools to generate efficient and boilerplate code.
 
 ### Running protobuf codegen
 
@@ -183,7 +183,7 @@ docker run -t -i -v $(pwd):/opt/avalanche -w/opt/avalanche avalanche:protobuf_co
 
 ## Supported Platforms
 
-AvalancheGo can run on different platforms, with different support tiers:
+DijetsNetGo can run on different platforms, with different support tiers:
 
 - **Tier 1**: Fully supported by the maintainers, guaranteed to pass all tests including e2e and stress tests.
 - **Tier 2**: Passes all unit and integration tests but not necessarily e2e tests.
@@ -191,7 +191,7 @@ AvalancheGo can run on different platforms, with different support tiers:
 - **Not supported**: May not build and not tested, considered _unsafe_. To be supported in the future. 
 
 The following table lists currently supported platforms and their corresponding
-AvalancheGo support tiers:
+DijetsNetGo support tiers:
 
 | Architecture | Operating system | Support tier  |
 |:------------:|:----------------:|:-------------:|
@@ -205,7 +205,7 @@ AvalancheGo support tiers:
 
 To officially support a new platform, one must satisfy the following requirements:
 
-| AvalancheGo continuous integration    | Tier 1 | Tier 2 | Tier 3 |
+| DijetsNetGo continuous integration    | Tier 1 | Tier 2 | Tier 3 |
 | ------------------------------------- |:------:|:------:|:------:|
 | Build passes                          | &check;| &check;| &check;|
 | Unit and integration tests pass       | &check;| &check;|        |
