@@ -10,7 +10,7 @@ import (
 	"net"
 
 	"github.com/Microsoft/go-winio"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/constants"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/constants"
 )
 
 // listen creates a net.Listen backed by a Windows named pipe

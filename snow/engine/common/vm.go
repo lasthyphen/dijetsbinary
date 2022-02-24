@@ -4,10 +4,10 @@
 package common
 
 import (
-	"github.com/lasthyphen/avalanchego-1.7.3/database/manager"
-	"github.com/lasthyphen/avalanchego-1.7.3/health"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/validators"
+	"github.com/lasthyphen/dijetsnetgo1.2/database/manager"
+	"github.com/lasthyphen/dijetsnetgo1.2/health"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/validators"
 )
 
 // VM describes the interface that all consensus VMs must implement

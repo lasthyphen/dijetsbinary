@@ -4,8 +4,8 @@
 package avm
 
 import (
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow"
 )
 
 // ID that this VM uses when labeled

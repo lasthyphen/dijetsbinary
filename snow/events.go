@@ -4,7 +4,7 @@
 package snow
 
 import (
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
 )
 
 // Acceptor is implemented when a struct is monitoring if a message is accepted

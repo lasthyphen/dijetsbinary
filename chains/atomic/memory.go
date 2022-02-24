@@ -7,13 +7,13 @@ import (
 	"bytes"
 	"sync"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/codec"
-	"github.com/lasthyphen/avalanchego-1.7.3/codec/linearcodec"
-	"github.com/lasthyphen/avalanchego-1.7.3/database"
-	"github.com/lasthyphen/avalanchego-1.7.3/database/prefixdb"
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/hashing"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/logging"
+	"github.com/lasthyphen/dijetsnetgo1.2/codec"
+	"github.com/lasthyphen/dijetsnetgo1.2/codec/linearcodec"
+	"github.com/lasthyphen/dijetsnetgo1.2/database"
+	"github.com/lasthyphen/dijetsnetgo1.2/database/prefixdb"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/hashing"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/logging"
 )
 
 const (

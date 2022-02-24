@@ -6,8 +6,8 @@ package leveldb
 import (
 	"testing"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/database"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/logging"
+	"github.com/lasthyphen/dijetsnetgo1.2/database"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/logging"
 )
 
 func TestInterface(t *testing.T) {

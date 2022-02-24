@@ -10,21 +10,21 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/cache"
-	"github.com/lasthyphen/avalanchego-1.7.3/cache/metercacher"
-	"github.com/lasthyphen/avalanchego-1.7.3/database"
-	"github.com/lasthyphen/avalanchego-1.7.3/database/linkeddb"
-	"github.com/lasthyphen/avalanchego-1.7.3/database/prefixdb"
-	"github.com/lasthyphen/avalanchego-1.7.3/database/versiondb"
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/choices"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/uptime"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/constants"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/hashing"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/wrappers"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/components/djtx"
+	"github.com/lasthyphen/dijetsnetgo1.2/cache"
+	"github.com/lasthyphen/dijetsnetgo1.2/cache/metercacher"
+	"github.com/lasthyphen/dijetsnetgo1.2/database"
+	"github.com/lasthyphen/dijetsnetgo1.2/database/linkeddb"
+	"github.com/lasthyphen/dijetsnetgo1.2/database/prefixdb"
+	"github.com/lasthyphen/dijetsnetgo1.2/database/versiondb"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/choices"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/uptime"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/constants"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/hashing"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/wrappers"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/components/djtx"
 
-	safemath "github.com/lasthyphen/avalanchego-1.7.3/utils/math"
+	safemath "github.com/lasthyphen/dijetsnetgo1.2/utils/math"
 )
 
 var (

@@ -9,9 +9,9 @@ import (
 	"crypto/x509"
 	"time"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/hashing"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/wrappers"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/hashing"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/wrappers"
 )
 
 func BuildUnsigned(

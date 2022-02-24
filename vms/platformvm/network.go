@@ -7,12 +7,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/cache"
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/common"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/constants"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/logging"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/platformvm/message"
+	"github.com/lasthyphen/dijetsnetgo1.2/cache"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/engine/common"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/constants"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/logging"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/platformvm/message"
 )
 
 const (

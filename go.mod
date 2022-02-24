@@ -1,4 +1,4 @@
-module github.com/ava-labs/avalanchego
+module github.com/lasthyphen/dijetsnetgo1.2
 
 // Changes to the minimum golang version must also be replicated in
 // scripts/ansible/roles/golang_base/defaults/main.yml
@@ -27,7 +27,7 @@ require (
 	github.com/jackpal/gateway v1.0.6
 	github.com/jackpal/go-nat-pmp v1.0.2
 	github.com/kardianos/osext v0.0.0-20190222173326-2bc1f35cddc0
-	github.com/lasthyphen/avalanchego-1.7.3 v0.0.0-20220119020512-0561c4016700
+	github.com/lasthyphen/dijetsnetgo1.2 v0.0.0-20220119020512-0561c4016700
 	github.com/linxGnu/grocksdb v1.6.34
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/mr-tron/base58 v1.2.0

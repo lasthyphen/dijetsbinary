@@ -8,12 +8,12 @@ import (
 
 	"github.com/hashicorp/go-plugin"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/api/keystore"
-	"github.com/lasthyphen/avalanchego-1.7.3/api/keystore/gkeystore/gkeystoreproto"
-	"github.com/lasthyphen/avalanchego-1.7.3/database"
-	"github.com/lasthyphen/avalanchego-1.7.3/database/encdb"
-	"github.com/lasthyphen/avalanchego-1.7.3/database/rpcdb"
-	"github.com/lasthyphen/avalanchego-1.7.3/database/rpcdb/rpcdbproto"
+	"github.com/lasthyphen/dijetsnetgo1.2/api/keystore"
+	"github.com/lasthyphen/dijetsnetgo1.2/api/keystore/gkeystore/gkeystoreproto"
+	"github.com/lasthyphen/dijetsnetgo1.2/database"
+	"github.com/lasthyphen/dijetsnetgo1.2/database/encdb"
+	"github.com/lasthyphen/dijetsnetgo1.2/database/rpcdb"
+	"github.com/lasthyphen/dijetsnetgo1.2/database/rpcdb/rpcdbproto"
 )
 
 var _ keystore.BlockchainKeystore = &Client{}

@@ -8,11 +8,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/api"
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/bloom"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/constants"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/formatting"
+	"github.com/lasthyphen/dijetsnetgo1.2/api"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/bloom"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/constants"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/formatting"
 )
 
 func TestAddAddressesParseAddresses(t *testing.T) {

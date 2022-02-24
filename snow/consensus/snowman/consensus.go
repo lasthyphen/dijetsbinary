@@ -4,9 +4,9 @@
 package snowman
 
 import (
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/consensus/snowball"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/consensus/snowball"
 )
 
 // Consensus represents a general snowman instance that can be used directly to

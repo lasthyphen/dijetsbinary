@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/formatting"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/rpc"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/formatting"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/rpc"
 )
 
 // Interface compliance

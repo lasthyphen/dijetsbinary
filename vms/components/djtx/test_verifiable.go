@@ -3,7 +3,7 @@
 
 package djtx
 
-import "github.com/lasthyphen/avalanchego-1.7.3/snow"
+import "github.com/lasthyphen/dijetsnetgo1.2/snow"
 
 type TestVerifiable struct{ Err error }
 

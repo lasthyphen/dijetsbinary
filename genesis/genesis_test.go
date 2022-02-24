@@ -12,13 +12,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/constants"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/hashing"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/perms"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/avm"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/evm"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/platformvm"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/constants"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/hashing"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/perms"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/avm"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/evm"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/platformvm"
 )
 
 func TestValidateConfig(t *testing.T) {

@@ -4,7 +4,7 @@
 package snowman
 
 import (
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/consensus/snowman"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/consensus/snowman"
 )
 
 // memoryBlock wraps a snowman Block to manage non-verified blocks

@@ -10,19 +10,19 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/api"
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/choices"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/constants"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/crypto"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/formatting"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/json"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/components/djtx"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/components/verify"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/nftfx"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/secp256k1fx"
+	"github.com/lasthyphen/dijetsnetgo1.2/api"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/choices"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/constants"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/crypto"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/formatting"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/json"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/components/djtx"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/components/verify"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/nftfx"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/secp256k1fx"
 
-	safemath "github.com/lasthyphen/avalanchego-1.7.3/utils/math"
+	safemath "github.com/lasthyphen/dijetsnetgo1.2/utils/math"
 )
 
 const (

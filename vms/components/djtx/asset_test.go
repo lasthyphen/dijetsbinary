@@ -6,9 +6,9 @@ package djtx
 import (
 	"testing"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/codec"
-	"github.com/lasthyphen/avalanchego-1.7.3/codec/linearcodec"
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/codec"
+	"github.com/lasthyphen/dijetsnetgo1.2/codec/linearcodec"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
 )
 
 func TestAssetVerifyNil(t *testing.T) {

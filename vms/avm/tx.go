@@ -6,17 +6,17 @@ package avm
 import (
 	"fmt"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/codec"
-	"github.com/lasthyphen/avalanchego-1.7.3/database"
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/crypto"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/hashing"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/components/djtx"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/components/verify"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/nftfx"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/propertyfx"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/secp256k1fx"
+	"github.com/lasthyphen/dijetsnetgo1.2/codec"
+	"github.com/lasthyphen/dijetsnetgo1.2/database"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/crypto"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/hashing"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/components/djtx"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/components/verify"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/nftfx"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/propertyfx"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/secp256k1fx"
 )
 
 type UnsignedTx interface {

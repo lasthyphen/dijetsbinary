@@ -14,16 +14,16 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/message"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/common"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/networking/benchlist"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/networking/router"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/networking/timeout"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/validators"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/logging"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/timer"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/message"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/engine/common"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/networking/benchlist"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/networking/router"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/networking/timeout"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/validators"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/logging"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/timer"
 )
 
 func TestSenderContext(t *testing.T) {

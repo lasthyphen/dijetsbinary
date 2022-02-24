@@ -6,7 +6,7 @@ package nftfx
 import (
 	"testing"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/components/verify"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/components/verify"
 )
 
 func TestMintOutputState(t *testing.T) {

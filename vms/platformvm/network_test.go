@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/crypto"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/avm"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/platformvm/message"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/crypto"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/avm"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/platformvm/message"
 	"github.com/stretchr/testify/assert"
 )
 

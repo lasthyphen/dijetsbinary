@@ -10,7 +10,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/units"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/units"
 )
 
 // Tests is a list of all database tests

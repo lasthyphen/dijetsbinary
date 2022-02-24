@@ -4,8 +4,8 @@
 package snowman
 
 import (
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/common"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/snowman/block"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/engine/common"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/engine/snowman/block"
 )
 
 // Engine describes the events that can occur to a Snowman instance.

@@ -11,13 +11,13 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/choices"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/consensus/snowman"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/common"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/common/queue"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/snowman/block"
-	"github.com/lasthyphen/avalanchego-1.7.3/version"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/choices"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/consensus/snowman"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/engine/common"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/engine/common/queue"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/engine/snowman/block"
+	"github.com/lasthyphen/dijetsnetgo1.2/version"
 )
 
 // Parameters for delaying bootstrapping to avoid potential CPU burns

@@ -6,7 +6,7 @@ package version
 import (
 	"time"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/constants"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/constants"
 )
 
 // These are globals that describe network upgrades and node versions

@@ -6,9 +6,9 @@ package metervm
 import (
 	"time"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/consensus/snowman"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/snowman/block"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/consensus/snowman"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/engine/snowman/block"
 )
 
 var _ block.BatchedChainVM = &blockVM{}

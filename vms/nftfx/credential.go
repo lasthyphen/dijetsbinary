@@ -4,7 +4,7 @@
 package nftfx
 
 import (
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/secp256k1fx"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/secp256k1fx"
 )
 
 type Credential struct {

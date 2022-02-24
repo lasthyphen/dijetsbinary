@@ -4,14 +4,14 @@
 package genesis
 
 import (
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/constants"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/avm"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/evm"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/nftfx"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/platformvm"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/propertyfx"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/secp256k1fx"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/constants"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/avm"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/evm"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/nftfx"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/platformvm"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/propertyfx"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/secp256k1fx"
 )
 
 // Aliases returns the default aliases based on the network ID

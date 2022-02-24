@@ -10,9 +10,9 @@ import (
 
 	healthback "github.com/AppsFlyer/go-sundheit"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/logging"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/logging"
 
-	healthlib "github.com/lasthyphen/avalanchego-1.7.3/health"
+	healthlib "github.com/lasthyphen/dijetsnetgo1.2/health"
 )
 
 type Service struct {

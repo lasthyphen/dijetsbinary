@@ -7,10 +7,10 @@ import (
 	"context"
 	"sync"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/chains/atomic"
-	"github.com/lasthyphen/avalanchego-1.7.3/chains/atomic/gsharedmemory/gsharedmemoryproto"
-	"github.com/lasthyphen/avalanchego-1.7.3/database"
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/chains/atomic"
+	"github.com/lasthyphen/dijetsnetgo1.2/chains/atomic/gsharedmemory/gsharedmemoryproto"
+	"github.com/lasthyphen/dijetsnetgo1.2/database"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
 )
 
 var _ gsharedmemoryproto.SharedMemoryServer = &Server{}

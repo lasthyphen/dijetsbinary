@@ -10,8 +10,8 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-plugin"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/app"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/subprocess"
+	"github.com/lasthyphen/dijetsnetgo1.2/app"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/subprocess"
 )
 
 func Exec(path string, args []string, forwardIO bool) (app.App, *plugin.Client, error) {

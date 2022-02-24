@@ -4,7 +4,7 @@
 package atomic
 
 import (
-	"github.com/lasthyphen/avalanchego-1.7.3/database"
+	"github.com/lasthyphen/dijetsnetgo1.2/database"
 )
 
 // WriteAll assumes all batches have the same underlying database. Batches

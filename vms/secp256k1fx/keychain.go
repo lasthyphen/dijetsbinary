@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/crypto"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/formatting"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/components/verify"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/crypto"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/formatting"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/components/verify"
 )
 
 var errCantSpend = errors.New("unable to spend this UTXO")

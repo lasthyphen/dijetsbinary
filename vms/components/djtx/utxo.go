@@ -6,7 +6,7 @@ package djtx
 import (
 	"errors"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/components/verify"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/components/verify"
 )
 
 var (

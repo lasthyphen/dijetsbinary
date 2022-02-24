@@ -10,14 +10,14 @@ import (
 	"net/http"
 	"sort"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/constants"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/formatting"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/json"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/components/djtx"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/secp256k1fx"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/constants"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/formatting"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/json"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/components/djtx"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/secp256k1fx"
 
-	safemath "github.com/lasthyphen/avalanchego-1.7.3/utils/math"
+	safemath "github.com/lasthyphen/dijetsnetgo1.2/utils/math"
 )
 
 // Note that since an Avalanche network has exactly one Platform Chain,

@@ -12,18 +12,18 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/database/manager"
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/choices"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/consensus/snowman"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/common"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/snowman/block"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/validators"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/hashing"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/timer/mockable"
-	"github.com/lasthyphen/avalanchego-1.7.3/version"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/proposervm/proposer"
+	"github.com/lasthyphen/dijetsnetgo1.2/database/manager"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/choices"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/consensus/snowman"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/engine/common"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/engine/snowman/block"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/validators"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/hashing"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/timer/mockable"
+	"github.com/lasthyphen/dijetsnetgo1.2/version"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/proposervm/proposer"
 )
 
 func TestCoreVMNotRemote(t *testing.T) {

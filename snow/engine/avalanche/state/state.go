@@ -4,14 +4,14 @@
 package state
 
 import (
-	"github.com/lasthyphen/avalanchego-1.7.3/cache"
-	"github.com/lasthyphen/avalanchego-1.7.3/database"
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/choices"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/avalanche/vertex"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/formatting"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/hashing"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/wrappers"
+	"github.com/lasthyphen/dijetsnetgo1.2/cache"
+	"github.com/lasthyphen/dijetsnetgo1.2/database"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/choices"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/engine/avalanche/vertex"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/formatting"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/hashing"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/wrappers"
 )
 
 type state struct {

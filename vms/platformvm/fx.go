@@ -4,8 +4,8 @@
 package platformvm
 
 import (
-	"github.com/lasthyphen/avalanchego-1.7.3/snow"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/components/verify"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/components/verify"
 )
 
 // Fx is the interface a feature extension must implement to support the

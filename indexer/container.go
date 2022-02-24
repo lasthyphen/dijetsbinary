@@ -3,7 +3,7 @@
 
 package indexer
 
-import "github.com/lasthyphen/avalanchego-1.7.3/ids"
+import "github.com/lasthyphen/dijetsnetgo1.2/ids"
 
 // Container is something that gets accepted
 // (a block, transaction or vertex)

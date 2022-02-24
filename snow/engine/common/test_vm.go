@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/version"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/version"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/database/manager"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow"
+	"github.com/lasthyphen/dijetsnetgo1.2/database/manager"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow"
 )
 
 var (

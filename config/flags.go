@@ -13,13 +13,13 @@ import (
 
 	"github.com/kardianos/osext"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/database/leveldb"
-	"github.com/lasthyphen/avalanchego-1.7.3/database/memdb"
-	"github.com/lasthyphen/avalanchego-1.7.3/database/rocksdb"
-	"github.com/lasthyphen/avalanchego-1.7.3/genesis"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/constants"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/ulimit"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/units"
+	"github.com/lasthyphen/dijetsnetgo1.2/database/leveldb"
+	"github.com/lasthyphen/dijetsnetgo1.2/database/memdb"
+	"github.com/lasthyphen/dijetsnetgo1.2/database/rocksdb"
+	"github.com/lasthyphen/dijetsnetgo1.2/genesis"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/constants"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/ulimit"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/units"
 )
 
 // Results of parsing the CLI

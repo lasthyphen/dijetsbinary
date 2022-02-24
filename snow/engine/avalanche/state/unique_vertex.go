@@ -7,14 +7,14 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/cache"
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/choices"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/consensus/avalanche"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/consensus/snowstorm"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/avalanche/vertex"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/formatting"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/hashing"
+	"github.com/lasthyphen/dijetsnetgo1.2/cache"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/choices"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/consensus/avalanche"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/consensus/snowstorm"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/engine/avalanche/vertex"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/formatting"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/hashing"
 )
 
 var (

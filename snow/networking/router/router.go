@@ -6,13 +6,13 @@ package router
 import (
 	"time"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/health"
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/message"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/networking/benchlist"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/networking/timeout"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/logging"
-	"github.com/lasthyphen/avalanchego-1.7.3/version"
+	"github.com/lasthyphen/dijetsnetgo1.2/health"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/message"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/networking/benchlist"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/networking/timeout"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/logging"
+	"github.com/lasthyphen/dijetsnetgo1.2/version"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

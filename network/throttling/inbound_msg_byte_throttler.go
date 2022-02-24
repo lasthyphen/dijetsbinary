@@ -6,14 +6,14 @@ package throttling
 import (
 	"time"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/validators"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/constants"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/linkedhashmap"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/logging"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/math"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/metric"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/wrappers"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/validators"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/constants"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/linkedhashmap"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/logging"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/math"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/metric"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/wrappers"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

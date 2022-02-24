@@ -13,11 +13,11 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/common"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/json"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/logging"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/engine/common"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/json"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/logging"
 
-	healthlib "github.com/lasthyphen/avalanchego-1.7.3/health"
+	healthlib "github.com/lasthyphen/dijetsnetgo1.2/health"
 )
 
 var _ Health = &health{}

@@ -9,12 +9,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/database"
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/choices"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/consensus/snowman"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/proposervm/block"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/proposervm/proposer"
+	"github.com/lasthyphen/dijetsnetgo1.2/database"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/choices"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/consensus/snowman"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/proposervm/block"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/proposervm/proposer"
 )
 
 // ProposerBlock Option interface tests section

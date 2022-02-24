@@ -4,8 +4,8 @@
 package chains
 
 import (
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/networking/router"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/networking/router"
 )
 
 var _ Manager = MockManager{}

@@ -7,11 +7,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/cache"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/crypto"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/hashing"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/wrappers"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/components/verify"
+	"github.com/lasthyphen/dijetsnetgo1.2/cache"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/crypto"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/hashing"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/wrappers"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/components/verify"
 )
 
 const (

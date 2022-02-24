@@ -6,8 +6,8 @@ package secp256k1fx
 import (
 	"errors"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/utils"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/math"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/math"
 )
 
 const (

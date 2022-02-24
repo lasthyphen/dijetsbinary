@@ -18,10 +18,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/chains"
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/consensus/avalanche"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/consensus/snowball"
+	"github.com/lasthyphen/dijetsnetgo1.2/chains"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/consensus/avalanche"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/consensus/snowball"
 )
 
 func TestGetChainConfigsFromFiles(t *testing.T) {

@@ -6,7 +6,7 @@ package snowball
 import (
 	"fmt"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
 )
 
 // nnarySnowflake is the implementation of a snowflake instance with an

@@ -8,8 +8,8 @@ import (
 	"math"
 	"time"
 
-	safemath "github.com/lasthyphen/avalanchego-1.7.3/utils/math"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/timer/mockable"
+	safemath "github.com/lasthyphen/dijetsnetgo1.2/utils/math"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/timer/mockable"
 )
 
 var errNoValidWeightedSamplers = errors.New("no valid weighted samplers found")

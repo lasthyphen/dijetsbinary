@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/components/djtx"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/components/djtx"
 
-	safemath "github.com/lasthyphen/avalanchego-1.7.3/utils/math"
+	safemath "github.com/lasthyphen/dijetsnetgo1.2/utils/math"
 )
 
 var _ UnsignedProposalTx = &UnsignedAdvanceTimeTx{}

@@ -10,8 +10,8 @@ import (
 
 	"github.com/hashicorp/go-plugin"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/app"
-	"github.com/lasthyphen/avalanchego-1.7.3/app/plugin/pluginproto"
+	"github.com/lasthyphen/dijetsnetgo1.2/app"
+	"github.com/lasthyphen/dijetsnetgo1.2/app/plugin/pluginproto"
 )
 
 const (

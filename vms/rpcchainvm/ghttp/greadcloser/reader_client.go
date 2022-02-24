@@ -8,7 +8,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/rpcchainvm/ghttp/greadcloser/greadcloserproto"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/rpcchainvm/ghttp/greadcloser/greadcloserproto"
 )
 
 var _ io.ReadCloser = &Client{}

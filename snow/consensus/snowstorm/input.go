@@ -6,11 +6,11 @@ package snowstorm
 import (
 	"math"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/choices"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/choices"
 
-	sbcon "github.com/lasthyphen/avalanchego-1.7.3/snow/consensus/snowball"
+	sbcon "github.com/lasthyphen/dijetsnetgo1.2/snow/consensus/snowball"
 )
 
 var _ Consensus = &Input{}

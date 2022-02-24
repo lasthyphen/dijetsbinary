@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	manager "github.com/lasthyphen/avalanchego-1.7.3/database/manager"
+	manager "github.com/lasthyphen/dijetsnetgo1.2/database/manager"
 	mock "github.com/stretchr/testify/mock"
 
 	prometheus "github.com/prometheus/client_golang/prometheus"

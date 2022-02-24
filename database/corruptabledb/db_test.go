@@ -7,8 +7,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/database"
-	"github.com/lasthyphen/avalanchego-1.7.3/database/memdb"
+	"github.com/lasthyphen/dijetsnetgo1.2/database"
+	"github.com/lasthyphen/dijetsnetgo1.2/database/memdb"
 	"github.com/stretchr/testify/assert"
 )
 

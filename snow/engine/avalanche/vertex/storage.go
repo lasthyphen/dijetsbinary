@@ -4,8 +4,8 @@
 package vertex
 
 import (
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/consensus/avalanche"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/consensus/avalanche"
 )
 
 // Storage defines the persistent storage that is required by the consensus

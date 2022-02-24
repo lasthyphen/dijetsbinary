@@ -6,13 +6,13 @@ package avalanche
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/database/memdb"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/consensus/avalanche"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/consensus/snowball"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/avalanche/bootstrap"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/avalanche/vertex"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/common"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/common/queue"
+	"github.com/lasthyphen/dijetsnetgo1.2/database/memdb"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/consensus/avalanche"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/consensus/snowball"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/engine/avalanche/bootstrap"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/engine/avalanche/vertex"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/engine/common"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/engine/common/queue"
 )
 
 func DefaultConfig() Config {

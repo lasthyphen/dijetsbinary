@@ -6,7 +6,7 @@ package message
 import (
 	"errors"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
 )
 
 var (

@@ -10,8 +10,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/wrappers"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/rpcchainvm/ghttp/gconn/gconnproto"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/wrappers"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/rpcchainvm/ghttp/gconn/gconnproto"
 )
 
 var _ net.Conn = &Client{}

@@ -4,7 +4,7 @@
 package gsharedmemory
 
 import (
-	"github.com/lasthyphen/avalanchego-1.7.3/chains/atomic/gsharedmemory/gsharedmemoryproto"
+	"github.com/lasthyphen/dijetsnetgo1.2/chains/atomic/gsharedmemory/gsharedmemoryproto"
 )
 
 type filteredBatch struct {

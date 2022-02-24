@@ -6,14 +6,14 @@ package metervm
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/api/metrics"
-	"github.com/lasthyphen/avalanchego-1.7.3/database/manager"
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/consensus/snowman"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/common"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/snowman/block"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/timer/mockable"
+	"github.com/lasthyphen/dijetsnetgo1.2/api/metrics"
+	"github.com/lasthyphen/dijetsnetgo1.2/database/manager"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/consensus/snowman"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/engine/common"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/engine/snowman/block"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/timer/mockable"
 )
 
 var _ block.ChainVM = &blockVM{}

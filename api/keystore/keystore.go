@@ -11,16 +11,16 @@ import (
 
 	"github.com/gorilla/rpc/v2"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/chains/atomic"
-	"github.com/lasthyphen/avalanchego-1.7.3/database"
-	"github.com/lasthyphen/avalanchego-1.7.3/database/encdb"
-	"github.com/lasthyphen/avalanchego-1.7.3/database/manager"
-	"github.com/lasthyphen/avalanchego-1.7.3/database/prefixdb"
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/logging"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/password"
+	"github.com/lasthyphen/dijetsnetgo1.2/chains/atomic"
+	"github.com/lasthyphen/dijetsnetgo1.2/database"
+	"github.com/lasthyphen/dijetsnetgo1.2/database/encdb"
+	"github.com/lasthyphen/dijetsnetgo1.2/database/manager"
+	"github.com/lasthyphen/dijetsnetgo1.2/database/prefixdb"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/logging"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/password"
 
-	jsoncodec "github.com/lasthyphen/avalanchego-1.7.3/utils/json"
+	jsoncodec "github.com/lasthyphen/dijetsnetgo1.2/utils/json"
 )
 
 const (

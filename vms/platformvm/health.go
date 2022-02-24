@@ -6,7 +6,7 @@ package platformvm
 import (
 	"fmt"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/constants"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/constants"
 )
 
 // HealthCheck implements the common.VM interface

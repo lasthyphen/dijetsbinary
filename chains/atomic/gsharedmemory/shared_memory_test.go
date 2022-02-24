@@ -13,14 +13,14 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/test/bufconn"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/chains/atomic"
-	"github.com/lasthyphen/avalanchego-1.7.3/chains/atomic/gsharedmemory/gsharedmemoryproto"
-	"github.com/lasthyphen/avalanchego-1.7.3/database"
-	"github.com/lasthyphen/avalanchego-1.7.3/database/memdb"
-	"github.com/lasthyphen/avalanchego-1.7.3/database/prefixdb"
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/logging"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/units"
+	"github.com/lasthyphen/dijetsnetgo1.2/chains/atomic"
+	"github.com/lasthyphen/dijetsnetgo1.2/chains/atomic/gsharedmemory/gsharedmemoryproto"
+	"github.com/lasthyphen/dijetsnetgo1.2/database"
+	"github.com/lasthyphen/dijetsnetgo1.2/database/memdb"
+	"github.com/lasthyphen/dijetsnetgo1.2/database/prefixdb"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/logging"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/units"
 )
 
 const (

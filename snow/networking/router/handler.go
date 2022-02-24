@@ -8,17 +8,17 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/message"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/common"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/networking/tracker"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/validators"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/constants"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/timer/mockable"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/uptime"
-	"github.com/lasthyphen/avalanchego-1.7.3/version"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/message"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/engine/common"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/networking/tracker"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/validators"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/constants"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/timer/mockable"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/uptime"
+	"github.com/lasthyphen/dijetsnetgo1.2/version"
 )
 
 var errDuplicatedContainerID = errors.New("inbound message contains duplicated container ID")

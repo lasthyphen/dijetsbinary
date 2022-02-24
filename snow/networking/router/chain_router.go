@@ -13,17 +13,17 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/message"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/networking/timeout"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/constants"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/hashing"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/linkedhashmap"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/logging"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/timer"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/timer/mockable"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/wrappers"
-	"github.com/lasthyphen/avalanchego-1.7.3/version"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/message"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/networking/timeout"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/constants"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/hashing"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/linkedhashmap"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/logging"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/timer"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/timer/mockable"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/wrappers"
+	"github.com/lasthyphen/dijetsnetgo1.2/version"
 )
 
 const (

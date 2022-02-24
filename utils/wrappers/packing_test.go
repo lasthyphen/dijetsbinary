@@ -10,9 +10,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/staking"
+	"github.com/lasthyphen/dijetsnetgo1.2/staking"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/utils"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils"
 
 	"github.com/stretchr/testify/assert"
 )

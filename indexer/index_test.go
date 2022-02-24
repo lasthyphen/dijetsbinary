@@ -6,15 +6,15 @@ package indexer
 import (
 	"testing"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/codec"
-	"github.com/lasthyphen/avalanchego-1.7.3/codec/linearcodec"
-	"github.com/lasthyphen/avalanchego-1.7.3/database/memdb"
-	"github.com/lasthyphen/avalanchego-1.7.3/database/versiondb"
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/logging"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/timer/mockable"
+	"github.com/lasthyphen/dijetsnetgo1.2/codec"
+	"github.com/lasthyphen/dijetsnetgo1.2/codec/linearcodec"
+	"github.com/lasthyphen/dijetsnetgo1.2/database/memdb"
+	"github.com/lasthyphen/dijetsnetgo1.2/database/versiondb"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/logging"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/timer/mockable"
 	"github.com/stretchr/testify/assert"
 )
 

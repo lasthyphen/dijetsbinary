@@ -6,9 +6,9 @@ package propertyfx
 import (
 	"errors"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/wrappers"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/components/verify"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/secp256k1fx"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/wrappers"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/components/verify"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/secp256k1fx"
 )
 
 var (

@@ -6,10 +6,10 @@ package common
 import (
 	"time"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/health"
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/validators"
+	"github.com/lasthyphen/dijetsnetgo1.2/health"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/validators"
 )
 
 // Engine describes the standard interface of a consensus engine

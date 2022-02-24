@@ -10,11 +10,11 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-plugin"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/app"
-	"github.com/lasthyphen/avalanchego-1.7.3/app/process"
-	"github.com/lasthyphen/avalanchego-1.7.3/node"
+	"github.com/lasthyphen/dijetsnetgo1.2/app"
+	"github.com/lasthyphen/dijetsnetgo1.2/app/process"
+	"github.com/lasthyphen/dijetsnetgo1.2/node"
 
-	appplugin "github.com/lasthyphen/avalanchego-1.7.3/app/plugin"
+	appplugin "github.com/lasthyphen/dijetsnetgo1.2/app/plugin"
 )
 
 // Run an AvalancheGo node.

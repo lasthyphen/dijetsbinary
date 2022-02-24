@@ -6,9 +6,9 @@ package health
 import (
 	healthback "github.com/AppsFlyer/go-sundheit"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/common"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/engine/common"
 
-	healthlib "github.com/lasthyphen/avalanchego-1.7.3/health"
+	healthlib "github.com/lasthyphen/dijetsnetgo1.2/health"
 )
 
 var _ Health = &noOp{}

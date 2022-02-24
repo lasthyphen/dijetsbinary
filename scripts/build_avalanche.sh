@@ -44,8 +44,8 @@ source "$AVALANCHE_PATH"/scripts/constants.sh
 # Build with rocksdb allowed only if the environment variable ROCKSDBALLOWED is set
 if [ -z ${ROCKSDBALLOWED+x} ]; then
     echo "Building DijetsNetGo..."
-    go build -ldflags "-X github.com/lasthyphen/avalanchego-1.7.3/version.GitCommit=$git_commit $static_ld_flags" -o "$avalanchego_path" "$AVALANCHE_PATH/main/"*.go
+    go build -ldflags "-X github.com/lasthyphen/dijetsnetgo1.2/version.GitCommit=$git_commit $static_ld_flags" -o "$avalanchego_path" "$AVALANCHE_PATH/main/"*.go
 else
     echo "Building DijetsNetGo with rocksdb enabled..."
-    go build -tags rocksdballowed -ldflags "-X github.com/lasthyphen/avalanchego-1.7.3/version.GitCommit=$git_commit $static_ld_flags" -o "$avalanchego_path" "$AVALANCHE_PATH/main/"*.go
+    go build -tags rocksdballowed -ldflags "-X github.com/lasthyphen/dijetsnetgo1.2/version.GitCommit=$git_commit $static_ld_flags" -o "$avalanchego_path" "$AVALANCHE_PATH/main/"*.go
 fi

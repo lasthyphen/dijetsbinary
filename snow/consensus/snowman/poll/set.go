@@ -8,13 +8,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/linkedhashmap"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/linkedhashmap"
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/logging"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/metric"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/logging"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/metric"
 )
 
 type pollHolder interface {

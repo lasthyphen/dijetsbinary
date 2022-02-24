@@ -4,8 +4,8 @@
 package vertex
 
 import (
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/consensus/avalanche"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/hashing"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/consensus/avalanche"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/hashing"
 )
 
 // Parser parses bytes into a vertex.

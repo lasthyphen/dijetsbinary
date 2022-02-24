@@ -6,8 +6,8 @@ package common
 import (
 	"time"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/snow"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/validators"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/validators"
 )
 
 // Config wraps the common configurations that are needed by a Snow consensus

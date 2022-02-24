@@ -4,9 +4,9 @@
 package pubsub
 
 import (
-	"github.com/lasthyphen/avalanchego-1.7.3/api"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/formatting"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/json"
+	"github.com/lasthyphen/dijetsnetgo1.2/api"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/formatting"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/json"
 )
 
 // NewBloom command for a new bloom filter

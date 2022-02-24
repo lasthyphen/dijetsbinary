@@ -1,2 +1,2 @@
 log_level: info
-avalanche_binary: ~/go/src/github.com/lasthyphen/avalanchego-1.7.3/build/avalanchego
+avalanche_binary: ~/go/src/github.com/lasthyphen/dijetsnetgo1.2/build/avalanchego

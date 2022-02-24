@@ -7,7 +7,7 @@ import (
 	"errors"
 	"time"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/rpc"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/rpc"
 )
 
 var errInvalidNumberOfChecks = errors.New("expected at least 1 check attempt")

@@ -4,7 +4,7 @@
 package snowman
 
 import (
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
 )
 
 // Voter records chits received from [vdr] once its dependencies are met.

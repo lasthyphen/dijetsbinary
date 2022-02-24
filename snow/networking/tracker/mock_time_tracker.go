@@ -3,7 +3,7 @@
 package tracker
 
 import (
-	ids "github.com/lasthyphen/avalanchego-1.7.3/ids"
+	ids "github.com/lasthyphen/dijetsnetgo1.2/ids"
 	mock "github.com/stretchr/testify/mock"
 
 	time "time"

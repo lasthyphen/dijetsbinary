@@ -8,8 +8,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/crypto"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/formatting"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/crypto"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/formatting"
 )
 
 var errNilCredential = errors.New("nil credential")

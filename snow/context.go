@@ -10,13 +10,13 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/api/keystore"
-	"github.com/lasthyphen/avalanchego-1.7.3/api/metrics"
-	"github.com/lasthyphen/avalanchego-1.7.3/chains/atomic"
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/validators"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/logging"
+	"github.com/lasthyphen/dijetsnetgo1.2/api/keystore"
+	"github.com/lasthyphen/dijetsnetgo1.2/api/metrics"
+	"github.com/lasthyphen/dijetsnetgo1.2/chains/atomic"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/validators"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/logging"
 )
 
 type EventDispatcher interface {

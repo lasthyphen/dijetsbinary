@@ -4,10 +4,10 @@
 package keystore
 
 import (
-	"github.com/lasthyphen/avalanchego-1.7.3/codec"
-	"github.com/lasthyphen/avalanchego-1.7.3/codec/linearcodec"
-	"github.com/lasthyphen/avalanchego-1.7.3/codec/reflectcodec"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/units"
+	"github.com/lasthyphen/dijetsnetgo1.2/codec"
+	"github.com/lasthyphen/dijetsnetgo1.2/codec/linearcodec"
+	"github.com/lasthyphen/dijetsnetgo1.2/codec/reflectcodec"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/units"
 )
 
 const (

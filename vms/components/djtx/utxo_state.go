@@ -6,13 +6,13 @@ package djtx
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/cache"
-	"github.com/lasthyphen/avalanchego-1.7.3/cache/metercacher"
-	"github.com/lasthyphen/avalanchego-1.7.3/codec"
-	"github.com/lasthyphen/avalanchego-1.7.3/database"
-	"github.com/lasthyphen/avalanchego-1.7.3/database/linkeddb"
-	"github.com/lasthyphen/avalanchego-1.7.3/database/prefixdb"
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/cache"
+	"github.com/lasthyphen/dijetsnetgo1.2/cache/metercacher"
+	"github.com/lasthyphen/dijetsnetgo1.2/codec"
+	"github.com/lasthyphen/dijetsnetgo1.2/database"
+	"github.com/lasthyphen/dijetsnetgo1.2/database/linkeddb"
+	"github.com/lasthyphen/dijetsnetgo1.2/database/prefixdb"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
 )
 
 var (

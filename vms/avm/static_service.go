@@ -10,19 +10,19 @@ import (
 	"math"
 	"net/http"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/codec"
-	"github.com/lasthyphen/avalanchego-1.7.3/codec/linearcodec"
-	"github.com/lasthyphen/avalanchego-1.7.3/codec/reflectcodec"
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/formatting"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/wrappers"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/components/djtx"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/components/verify"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/nftfx"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/propertyfx"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/secp256k1fx"
+	"github.com/lasthyphen/dijetsnetgo1.2/codec"
+	"github.com/lasthyphen/dijetsnetgo1.2/codec/linearcodec"
+	"github.com/lasthyphen/dijetsnetgo1.2/codec/reflectcodec"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/formatting"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/wrappers"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/components/djtx"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/components/verify"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/nftfx"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/propertyfx"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/secp256k1fx"
 
-	cjson "github.com/lasthyphen/avalanchego-1.7.3/utils/json"
+	cjson "github.com/lasthyphen/dijetsnetgo1.2/utils/json"
 )
 
 var (

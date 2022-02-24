@@ -1,6 +1,6 @@
 syntax = "proto3";
 package gsharedmemoryproto;
-option go_package = "github.com/lasthyphen/avalanchego-1.7.3/chains/atomic/gsharedmemory/gsharedmemoryproto";
+option go_package = "github.com/lasthyphen/dijetsnetgo1.2/chains/atomic/gsharedmemory/gsharedmemoryproto";
 
 message BatchPut {
     bytes key = 1;

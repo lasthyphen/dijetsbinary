@@ -4,7 +4,7 @@
 package message
 
 import (
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/wrappers"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/wrappers"
 )
 
 // Field that may be packed into a message

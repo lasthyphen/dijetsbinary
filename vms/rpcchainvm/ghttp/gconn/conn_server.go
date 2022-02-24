@@ -8,8 +8,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/rpcchainvm/ghttp/gconn/gconnproto"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms/rpcchainvm/grpcutils"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/rpcchainvm/ghttp/gconn/gconnproto"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms/rpcchainvm/grpcutils"
 )
 
 var _ gconnproto.ConnServer = &Server{}

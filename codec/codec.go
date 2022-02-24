@@ -3,7 +3,7 @@
 
 package codec
 
-import "github.com/lasthyphen/avalanchego-1.7.3/utils/wrappers"
+import "github.com/lasthyphen/dijetsnetgo1.2/utils/wrappers"
 
 // Codec marshals and unmarshals
 type Codec interface {

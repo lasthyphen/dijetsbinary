@@ -6,7 +6,7 @@ package snowball
 import (
 	"fmt"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
 )
 
 // Consensus represents a general snow instance that can be used directly to

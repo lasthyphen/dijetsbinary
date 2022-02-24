@@ -13,10 +13,10 @@ import (
 	"github.com/hashicorp/go-hclog"
 	"github.com/hashicorp/go-plugin"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/subprocess"
-	"github.com/lasthyphen/avalanchego-1.7.3/vms"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/subprocess"
+	"github.com/lasthyphen/dijetsnetgo1.2/vms"
 )
 
 var errWrongVM = errors.New("wrong vm type")

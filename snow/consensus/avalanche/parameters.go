@@ -6,7 +6,7 @@ package avalanche
 import (
 	"fmt"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/consensus/snowball"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/consensus/snowball"
 )
 
 // Parameters the avalanche parameters include the snowball parameters and the

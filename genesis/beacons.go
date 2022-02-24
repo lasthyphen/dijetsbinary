@@ -4,8 +4,8 @@
 package genesis
 
 import (
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/constants"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/sampler"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/constants"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/sampler"
 )
 
 // getIPs returns the beacon IPs for each network

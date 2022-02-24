@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/app/runner"
-	"github.com/lasthyphen/avalanchego-1.7.3/config"
-	"github.com/lasthyphen/avalanchego-1.7.3/version"
+	"github.com/lasthyphen/dijetsnetgo1.2/app/runner"
+	"github.com/lasthyphen/dijetsnetgo1.2/config"
+	"github.com/lasthyphen/dijetsnetgo1.2/version"
 )
 
 func main() {

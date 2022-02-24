@@ -6,13 +6,13 @@ package snowman
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/database/memdb"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/consensus/snowball"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/consensus/snowman"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/common"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/common/queue"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/snowman/block"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/snowman/bootstrap"
+	"github.com/lasthyphen/dijetsnetgo1.2/database/memdb"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/consensus/snowball"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/consensus/snowman"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/engine/common"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/engine/common/queue"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/engine/snowman/block"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/engine/snowman/bootstrap"
 )
 
 func DefaultConfig() Config {

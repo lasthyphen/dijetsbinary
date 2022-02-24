@@ -9,14 +9,14 @@ import (
 
 	"github.com/gorilla/rpc/v2"
 
-	"github.com/lasthyphen/avalanchego-1.7.3/api"
-	"github.com/lasthyphen/avalanchego-1.7.3/api/server"
-	"github.com/lasthyphen/avalanchego-1.7.3/chains"
-	"github.com/lasthyphen/avalanchego-1.7.3/ids"
-	"github.com/lasthyphen/avalanchego-1.7.3/ipcs"
-	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/common"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/json"
-	"github.com/lasthyphen/avalanchego-1.7.3/utils/logging"
+	"github.com/lasthyphen/dijetsnetgo1.2/api"
+	"github.com/lasthyphen/dijetsnetgo1.2/api/server"
+	"github.com/lasthyphen/dijetsnetgo1.2/chains"
+	"github.com/lasthyphen/dijetsnetgo1.2/ids"
+	"github.com/lasthyphen/dijetsnetgo1.2/ipcs"
+	"github.com/lasthyphen/dijetsnetgo1.2/snow/engine/common"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/json"
+	"github.com/lasthyphen/dijetsnetgo1.2/utils/logging"
 )
 
 // IPCServer maintains the IPCs
