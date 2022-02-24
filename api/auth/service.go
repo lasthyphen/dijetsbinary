@@ -6,7 +6,7 @@ package auth
 import (
 	"net/http"
 
-	"github.com/ava-labs/avalanchego/api"
+	"github.com/lasthyphen/avalanchego-1.7.3/api"
 )
 
 // Service that serves the Auth API functionality.

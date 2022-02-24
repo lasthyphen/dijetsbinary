@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/ava-labs/avalanchego/app/runner"
-	"github.com/ava-labs/avalanchego/config"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/lasthyphen/avalanchego-1.7.3/app/runner"
+	"github.com/lasthyphen/avalanchego-1.7.3/config"
+	"github.com/lasthyphen/avalanchego-1.7.3/version"
 )
 
 func main() {

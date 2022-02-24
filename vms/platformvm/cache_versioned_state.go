@@ -6,9 +6,9 @@ package platformvm
 import (
 	"time"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/vms/components/djtx"
+	"github.com/lasthyphen/avalanchego-1.7.3/database"
+	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/components/djtx"
 )
 
 var _ VersionedState = &versionedStateImpl{}

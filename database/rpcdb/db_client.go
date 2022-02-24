@@ -8,12 +8,12 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/nodb"
-	"github.com/ava-labs/avalanchego/database/rpcdb/rpcdbproto"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/units"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/lasthyphen/avalanchego-1.7.3/database"
+	"github.com/lasthyphen/avalanchego-1.7.3/database/nodb"
+	"github.com/lasthyphen/avalanchego-1.7.3/database/rpcdb/rpcdbproto"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/units"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/wrappers"
 )
 
 const (

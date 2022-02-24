@@ -7,9 +7,9 @@ import (
 	"container/list"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/chains/atomic"
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/lasthyphen/avalanchego-1.7.3/api"
+	"github.com/lasthyphen/avalanchego-1.7.3/chains/atomic"
+	"github.com/lasthyphen/avalanchego-1.7.3/ids"
 )
 
 // Returns:

@@ -9,14 +9,14 @@ import (
 
 	"github.com/gorilla/rpc/v2"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/api/server"
-	"github.com/ava-labs/avalanchego/chains"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/ipcs"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/utils/json"
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/lasthyphen/avalanchego-1.7.3/api"
+	"github.com/lasthyphen/avalanchego-1.7.3/api/server"
+	"github.com/lasthyphen/avalanchego-1.7.3/chains"
+	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/avalanchego-1.7.3/ipcs"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/common"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/json"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/logging"
 )
 
 // IPCServer maintains the IPCs

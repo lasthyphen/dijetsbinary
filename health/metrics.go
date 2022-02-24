@@ -4,7 +4,7 @@
 package health
 
 import (
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/logging"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

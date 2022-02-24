@@ -12,17 +12,17 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/corruptabledb"
-	"github.com/ava-labs/avalanchego/database/leveldb"
-	"github.com/ava-labs/avalanchego/database/memdb"
-	"github.com/ava-labs/avalanchego/database/meterdb"
-	"github.com/ava-labs/avalanchego/database/prefixdb"
-	"github.com/ava-labs/avalanchego/database/rocksdb"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/lasthyphen/avalanchego-1.7.3/database"
+	"github.com/lasthyphen/avalanchego-1.7.3/database/corruptabledb"
+	"github.com/lasthyphen/avalanchego-1.7.3/database/leveldb"
+	"github.com/lasthyphen/avalanchego-1.7.3/database/memdb"
+	"github.com/lasthyphen/avalanchego-1.7.3/database/meterdb"
+	"github.com/lasthyphen/avalanchego-1.7.3/database/prefixdb"
+	"github.com/lasthyphen/avalanchego-1.7.3/database/rocksdb"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/logging"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/wrappers"
+	"github.com/lasthyphen/avalanchego-1.7.3/version"
 )
 
 var (

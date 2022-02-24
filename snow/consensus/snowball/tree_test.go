@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/sampler"
+	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/sampler"
 )
 
 const (

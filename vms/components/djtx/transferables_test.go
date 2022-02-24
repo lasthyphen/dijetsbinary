@@ -7,11 +7,11 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/codec/linearcodec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/lasthyphen/avalanchego-1.7.3/codec"
+	"github.com/lasthyphen/avalanchego-1.7.3/codec/linearcodec"
+	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/formatting"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/secp256k1fx"
 )
 
 func TestTransferableOutputVerifyNil(t *testing.T) {

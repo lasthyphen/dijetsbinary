@@ -4,7 +4,7 @@
 package common
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/lasthyphen/avalanchego-1.7.3/ids"
 )
 
 // Subnet describes the standard interface of a subnet description

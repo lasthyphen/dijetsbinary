@@ -6,8 +6,8 @@ package message
 import (
 	"testing"
 
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/units"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/units"
 
 	"github.com/stretchr/testify/assert"
 )

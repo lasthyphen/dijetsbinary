@@ -9,8 +9,8 @@ import (
 
 	"github.com/mitchellh/go-homedir"
 
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/units"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/constants"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/units"
 )
 
 // DefaultLogDirectory is the default directory where logs are saved

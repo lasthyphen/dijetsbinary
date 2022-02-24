@@ -8,13 +8,13 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/vms/components/djtx"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/lasthyphen/avalanchego-1.7.3/api"
+	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/components/djtx"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/secp256k1fx"
 
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	safemath "github.com/ava-labs/avalanchego/utils/math"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/formatting"
+	safemath "github.com/lasthyphen/avalanchego-1.7.3/utils/math"
 )
 
 type WalletService struct {

@@ -9,8 +9,8 @@ package rocksdb
 import (
 	"errors"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/lasthyphen/avalanchego-1.7.3/database"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/logging"
 )
 
 var errUnsupportedDatabase = errors.New("database isn't suppported")

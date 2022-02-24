@@ -7,11 +7,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/cache"
-	"github.com/ava-labs/avalanchego/utils/crypto"
-	"github.com/ava-labs/avalanchego/utils/hashing"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/avalanchego/vms/components/verify"
+	"github.com/lasthyphen/avalanchego-1.7.3/cache"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/crypto"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/hashing"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/wrappers"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/components/verify"
 )
 
 const (

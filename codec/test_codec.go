@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/wrappers"
 )
 
 var Tests = []func(c GeneralCodec, t testing.TB){

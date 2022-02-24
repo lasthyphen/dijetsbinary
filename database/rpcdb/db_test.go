@@ -12,9 +12,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/test/bufconn"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/memdb"
-	"github.com/ava-labs/avalanchego/database/rpcdb/rpcdbproto"
+	"github.com/lasthyphen/avalanchego-1.7.3/database"
+	"github.com/lasthyphen/avalanchego-1.7.3/database/memdb"
+	"github.com/lasthyphen/avalanchego-1.7.3/database/rpcdb/rpcdbproto"
 )
 
 const (

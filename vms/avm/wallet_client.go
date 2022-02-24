@@ -7,12 +7,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	cjson "github.com/ava-labs/avalanchego/utils/json"
-	"github.com/ava-labs/avalanchego/utils/rpc"
+	"github.com/lasthyphen/avalanchego-1.7.3/api"
+	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/constants"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/formatting"
+	cjson "github.com/lasthyphen/avalanchego-1.7.3/utils/json"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/rpc"
 )
 
 // Interface compliance

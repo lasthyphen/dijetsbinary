@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils"
+	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils"
 )
 
 var errNilUTXOID = errors.New("nil utxo ID is not valid")

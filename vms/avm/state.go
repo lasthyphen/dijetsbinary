@@ -6,11 +6,11 @@ package avm
 import (
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/cache"
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/prefixdb"
-	"github.com/ava-labs/avalanchego/vms/components/djtx"
+	"github.com/lasthyphen/avalanchego-1.7.3/cache"
+	"github.com/lasthyphen/avalanchego-1.7.3/codec"
+	"github.com/lasthyphen/avalanchego-1.7.3/database"
+	"github.com/lasthyphen/avalanchego-1.7.3/database/prefixdb"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/components/djtx"
 )
 
 const (

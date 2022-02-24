@@ -8,17 +8,17 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/message"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/snow/networking/tracker"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
-	"github.com/ava-labs/avalanchego/utils/uptime"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/avalanchego-1.7.3/message"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/common"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/networking/tracker"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/validators"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/constants"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/timer/mockable"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/uptime"
+	"github.com/lasthyphen/avalanchego-1.7.3/version"
 )
 
 var errDuplicatedContainerID = errors.New("inbound message contains duplicated container ID")

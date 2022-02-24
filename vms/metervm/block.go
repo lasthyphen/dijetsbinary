@@ -3,7 +3,7 @@
 
 package metervm
 
-import "github.com/ava-labs/avalanchego/snow/consensus/snowman"
+import "github.com/lasthyphen/avalanchego-1.7.3/snow/consensus/snowman"
 
 var (
 	_ snowman.Block       = &meterBlock{}

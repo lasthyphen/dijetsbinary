@@ -6,9 +6,9 @@ package djtx
 import (
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/chains/atomic"
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/lasthyphen/avalanchego-1.7.3/chains/atomic"
+	"github.com/lasthyphen/avalanchego-1.7.3/codec"
+	"github.com/lasthyphen/avalanchego-1.7.3/ids"
 )
 
 const (

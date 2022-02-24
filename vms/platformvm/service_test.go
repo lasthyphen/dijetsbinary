@@ -14,22 +14,22 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/api/keystore"
-	"github.com/ava-labs/avalanchego/chains/atomic"
-	"github.com/ava-labs/avalanchego/database/manager"
-	"github.com/ava-labs/avalanchego/database/prefixdb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/crypto"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/version"
-	"github.com/ava-labs/avalanchego/vms/avm"
-	"github.com/ava-labs/avalanchego/vms/components/djtx"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/lasthyphen/avalanchego-1.7.3/api"
+	"github.com/lasthyphen/avalanchego-1.7.3/api/keystore"
+	"github.com/lasthyphen/avalanchego-1.7.3/chains/atomic"
+	"github.com/lasthyphen/avalanchego-1.7.3/database/manager"
+	"github.com/lasthyphen/avalanchego-1.7.3/database/prefixdb"
+	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/constants"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/crypto"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/formatting"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/logging"
+	"github.com/lasthyphen/avalanchego-1.7.3/version"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/avm"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/components/djtx"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/secp256k1fx"
 
-	cjson "github.com/ava-labs/avalanchego/utils/json"
+	cjson "github.com/lasthyphen/avalanchego-1.7.3/utils/json"
 )
 
 var (

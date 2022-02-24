@@ -4,7 +4,7 @@
 package sampler
 
 import (
-	safemath "github.com/ava-labs/avalanchego/utils/math"
+	safemath "github.com/lasthyphen/avalanchego-1.7.3/utils/math"
 )
 
 type weightedWithoutReplacementGeneric struct {

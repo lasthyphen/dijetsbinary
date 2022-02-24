@@ -6,9 +6,9 @@ package validators
 import (
 	"math"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/lasthyphen/avalanchego-1.7.3/ids"
 
-	safemath "github.com/ava-labs/avalanchego/utils/math"
+	safemath "github.com/lasthyphen/avalanchego-1.7.3/utils/math"
 )
 
 // Validator is the minimal description of someone that can be sampled.

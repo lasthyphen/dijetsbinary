@@ -7,7 +7,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/ava-labs/avalanchego/vms/components/verify"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/components/verify"
 )
 
 var (

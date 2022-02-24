@@ -6,13 +6,13 @@ package sender
 import (
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/message"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/networking/router"
-	"github.com/ava-labs/avalanchego/snow/networking/timeout"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/formatting"
+	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/avalanchego-1.7.3/message"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/networking/router"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/networking/timeout"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/constants"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/formatting"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

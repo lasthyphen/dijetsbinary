@@ -11,7 +11,7 @@ import (
 	"io/ioutil"
 	"sync"
 
-	"github.com/ava-labs/avalanchego/utils"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils"
 )
 
 // gzipCompressor implements Compressor

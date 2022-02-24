@@ -11,20 +11,20 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/codec/linearcodec"
-	"github.com/ava-labs/avalanchego/codec/reflectcodec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/utils/json"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/avalanchego/vms/avm"
-	"github.com/ava-labs/avalanchego/vms/evm"
-	"github.com/ava-labs/avalanchego/vms/nftfx"
-	"github.com/ava-labs/avalanchego/vms/platformvm"
-	"github.com/ava-labs/avalanchego/vms/propertyfx"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/lasthyphen/avalanchego-1.7.3/codec"
+	"github.com/lasthyphen/avalanchego-1.7.3/codec/linearcodec"
+	"github.com/lasthyphen/avalanchego-1.7.3/codec/reflectcodec"
+	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/constants"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/formatting"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/json"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/wrappers"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/avm"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/evm"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/nftfx"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/platformvm"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/propertyfx"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/secp256k1fx"
 )
 
 const (
@@ -263,7 +263,7 @@ func FromConfig(config *Config) ([]byte, ids.ID, error) {
 	}
 	{
 		djtx := avm.AssetDefinition{
-			Name:         "Avalanche",
+			Name:         "Dijets",
 			Symbol:       "DJTX",
 			Denomination: 9,
 			InitialState: map[string][]interface{}{},

@@ -7,12 +7,12 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/ava-labs/avalanchego/pubsub"
-	"github.com/ava-labs/avalanchego/vms/components/djtx"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/lasthyphen/avalanchego-1.7.3/pubsub"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/components/djtx"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/secp256k1fx"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/lasthyphen/avalanchego-1.7.3/ids"
 )
 
 type mockFilter struct {

@@ -6,12 +6,12 @@ package queue
 import (
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/versiondb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
+	"github.com/lasthyphen/avalanchego-1.7.3/database"
+	"github.com/lasthyphen/avalanchego-1.7.3/database/versiondb"
+	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/common"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/wrappers"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

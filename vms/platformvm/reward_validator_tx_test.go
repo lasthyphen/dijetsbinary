@@ -9,17 +9,17 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ava-labs/avalanchego/chains"
-	"github.com/ava-labs/avalanchego/database/manager"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/snow/uptime"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/crypto"
-	"github.com/ava-labs/avalanchego/utils/math"
-	"github.com/ava-labs/avalanchego/version"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/lasthyphen/avalanchego-1.7.3/chains"
+	"github.com/lasthyphen/avalanchego-1.7.3/database/manager"
+	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/common"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/uptime"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/validators"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/constants"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/crypto"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/math"
+	"github.com/lasthyphen/avalanchego-1.7.3/version"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/secp256k1fx"
 )
 
 func TestUnsignedRewardValidatorTxExecuteOnCommit(t *testing.T) {

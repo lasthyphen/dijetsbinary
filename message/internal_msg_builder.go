@@ -4,8 +4,8 @@
 package message
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/avalanchego-1.7.3/version"
 )
 
 var _ InternalMsgBuilder = internalMsgBuilder{}

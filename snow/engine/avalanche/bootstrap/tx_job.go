@@ -9,12 +9,12 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/choices"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowstorm"
-	"github.com/ava-labs/avalanchego/snow/engine/avalanche/vertex"
-	"github.com/ava-labs/avalanchego/snow/engine/common/queue"
-	"github.com/ava-labs/avalanchego/utils/logging"
+	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/choices"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/consensus/snowstorm"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/avalanche/vertex"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/common/queue"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/logging"
 )
 
 var errMissingTxDependenciesOnAccept = errors.New("attempting to accept a transaction with missing dependencies")

@@ -13,13 +13,13 @@ import (
 
 	"github.com/kardianos/osext"
 
-	"github.com/ava-labs/avalanchego/database/leveldb"
-	"github.com/ava-labs/avalanchego/database/memdb"
-	"github.com/ava-labs/avalanchego/database/rocksdb"
-	"github.com/ava-labs/avalanchego/genesis"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/ulimit"
-	"github.com/ava-labs/avalanchego/utils/units"
+	"github.com/lasthyphen/avalanchego-1.7.3/database/leveldb"
+	"github.com/lasthyphen/avalanchego-1.7.3/database/memdb"
+	"github.com/lasthyphen/avalanchego-1.7.3/database/rocksdb"
+	"github.com/lasthyphen/avalanchego-1.7.3/genesis"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/constants"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/ulimit"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/units"
 )
 
 // Results of parsing the CLI

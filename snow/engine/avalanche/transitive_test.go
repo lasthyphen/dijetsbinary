@@ -12,17 +12,17 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/choices"
-	"github.com/ava-labs/avalanchego/snow/consensus/avalanche"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowball"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowstorm"
-	"github.com/ava-labs/avalanchego/snow/engine/avalanche/vertex"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/choices"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/consensus/avalanche"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/consensus/snowball"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/consensus/snowstorm"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/avalanche/vertex"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/common"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/validators"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/wrappers"
+	"github.com/lasthyphen/avalanchego-1.7.3/version"
 )
 
 var (

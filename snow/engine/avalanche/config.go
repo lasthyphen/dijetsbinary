@@ -4,8 +4,8 @@
 package avalanche
 
 import (
-	"github.com/ava-labs/avalanchego/snow/consensus/avalanche"
-	"github.com/ava-labs/avalanchego/snow/engine/avalanche/bootstrap"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/consensus/avalanche"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/avalanche/bootstrap"
 )
 
 // Config wraps all the parameters needed for an avalanche engine

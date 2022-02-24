@@ -6,7 +6,7 @@ package message
 import (
 	"fmt"
 
-	"github.com/ava-labs/avalanchego/utils/constants"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/constants"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

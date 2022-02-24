@@ -6,7 +6,7 @@ package snowball
 import (
 	"testing"
 
-	"github.com/ava-labs/avalanchego/utils/sampler"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/sampler"
 )
 
 func TestSnowballGovernance(t *testing.T) {

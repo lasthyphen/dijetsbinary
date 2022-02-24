@@ -8,16 +8,16 @@ package state
 import (
 	"errors"
 
-	"github.com/ava-labs/avalanchego/cache"
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/database/versiondb"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow"
-	"github.com/ava-labs/avalanchego/snow/choices"
-	"github.com/ava-labs/avalanchego/snow/consensus/avalanche"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowstorm"
-	"github.com/ava-labs/avalanchego/snow/engine/avalanche/vertex"
-	"github.com/ava-labs/avalanchego/utils/math"
+	"github.com/lasthyphen/avalanchego-1.7.3/cache"
+	"github.com/lasthyphen/avalanchego-1.7.3/database"
+	"github.com/lasthyphen/avalanchego-1.7.3/database/versiondb"
+	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/choices"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/consensus/avalanche"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/consensus/snowstorm"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/avalanche/vertex"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/math"
 )
 
 const (

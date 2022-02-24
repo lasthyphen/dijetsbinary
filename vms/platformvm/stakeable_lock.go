@@ -6,7 +6,7 @@ package platformvm
 import (
 	"errors"
 
-	"github.com/ava-labs/avalanchego/vms/components/djtx"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/components/djtx"
 )
 
 var (

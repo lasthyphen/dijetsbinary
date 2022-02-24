@@ -13,17 +13,17 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/message"
-	"github.com/ava-labs/avalanchego/snow/networking/timeout"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/hashing"
-	"github.com/ava-labs/avalanchego/utils/linkedhashmap"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/timer"
-	"github.com/ava-labs/avalanchego/utils/timer/mockable"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/avalanchego/version"
+	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/avalanchego-1.7.3/message"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/networking/timeout"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/constants"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/hashing"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/linkedhashmap"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/logging"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/timer"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/timer/mockable"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/wrappers"
+	"github.com/lasthyphen/avalanchego-1.7.3/version"
 )
 
 const (

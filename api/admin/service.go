@@ -9,17 +9,17 @@ import (
 
 	"github.com/gorilla/rpc/v2"
 
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/api/server"
-	"github.com/ava-labs/avalanchego/chains"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/logging"
-	"github.com/ava-labs/avalanchego/utils/perms"
-	"github.com/ava-labs/avalanchego/utils/profiler"
+	"github.com/lasthyphen/avalanchego-1.7.3/api"
+	"github.com/lasthyphen/avalanchego-1.7.3/api/server"
+	"github.com/lasthyphen/avalanchego-1.7.3/chains"
+	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/common"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/constants"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/logging"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/perms"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/profiler"
 
-	cjson "github.com/ava-labs/avalanchego/utils/json"
+	cjson "github.com/lasthyphen/avalanchego-1.7.3/utils/json"
 )
 
 const (

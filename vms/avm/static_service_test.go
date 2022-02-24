@@ -6,9 +6,9 @@ package avm
 import (
 	"testing"
 
-	"github.com/ava-labs/avalanchego/utils/constants"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/utils/json"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/constants"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/formatting"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/json"
 )
 
 var addrStrArray = []string{

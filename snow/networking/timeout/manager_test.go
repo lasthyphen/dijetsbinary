@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/message"
-	"github.com/ava-labs/avalanchego/snow/networking/benchlist"
-	"github.com/ava-labs/avalanchego/utils/timer"
+	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/avalanchego-1.7.3/message"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/networking/benchlist"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/timer"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

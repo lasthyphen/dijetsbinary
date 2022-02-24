@@ -6,8 +6,8 @@ package linkeddb
 import (
 	"sync"
 
-	"github.com/ava-labs/avalanchego/cache"
-	"github.com/ava-labs/avalanchego/database"
+	"github.com/lasthyphen/avalanchego-1.7.3/cache"
+	"github.com/lasthyphen/avalanchego-1.7.3/database"
 )
 
 const (

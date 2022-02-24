@@ -10,12 +10,12 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ava-labs/avalanchego/database"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/validators"
-	"github.com/ava-labs/avalanchego/utils/constants"
+	"github.com/lasthyphen/avalanchego-1.7.3/database"
+	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/validators"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/constants"
 
-	safemath "github.com/ava-labs/avalanchego/utils/math"
+	safemath "github.com/lasthyphen/avalanchego-1.7.3/utils/math"
 )
 
 var (

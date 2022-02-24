@@ -11,13 +11,13 @@ import (
 
 	"github.com/hashicorp/go-plugin"
 
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/ghttp/gconn"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/ghttp/gconn/gconnproto"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/ghttp/greader"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/ghttp/greader/greaderproto"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/ghttp/gresponsewriter/gresponsewriterproto"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/ghttp/gwriter"
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/ghttp/gwriter/gwriterproto"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/rpcchainvm/ghttp/gconn"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/rpcchainvm/ghttp/gconn/gconnproto"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/rpcchainvm/ghttp/greader"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/rpcchainvm/ghttp/greader/greaderproto"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/rpcchainvm/ghttp/gresponsewriter/gresponsewriterproto"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/rpcchainvm/ghttp/gwriter"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/rpcchainvm/ghttp/gwriter/gwriterproto"
 )
 
 var (

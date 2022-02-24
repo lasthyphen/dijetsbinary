@@ -10,19 +10,19 @@ import (
 	"math"
 	"net/http"
 
-	"github.com/ava-labs/avalanchego/codec"
-	"github.com/ava-labs/avalanchego/codec/linearcodec"
-	"github.com/ava-labs/avalanchego/codec/reflectcodec"
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/utils/formatting"
-	"github.com/ava-labs/avalanchego/utils/wrappers"
-	"github.com/ava-labs/avalanchego/vms/components/djtx"
-	"github.com/ava-labs/avalanchego/vms/components/verify"
-	"github.com/ava-labs/avalanchego/vms/nftfx"
-	"github.com/ava-labs/avalanchego/vms/propertyfx"
-	"github.com/ava-labs/avalanchego/vms/secp256k1fx"
+	"github.com/lasthyphen/avalanchego-1.7.3/codec"
+	"github.com/lasthyphen/avalanchego-1.7.3/codec/linearcodec"
+	"github.com/lasthyphen/avalanchego-1.7.3/codec/reflectcodec"
+	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/formatting"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/wrappers"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/components/djtx"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/components/verify"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/nftfx"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/propertyfx"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/secp256k1fx"
 
-	cjson "github.com/ava-labs/avalanchego/utils/json"
+	cjson "github.com/lasthyphen/avalanchego-1.7.3/utils/json"
 )
 
 var (

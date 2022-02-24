@@ -11,7 +11,7 @@ import (
 	"math"
 	"strings"
 
-	"github.com/ava-labs/avalanchego/utils/hashing"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/hashing"
 	"github.com/mr-tron/base58/base58"
 )
 

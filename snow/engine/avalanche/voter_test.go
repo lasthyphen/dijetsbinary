@@ -6,11 +6,11 @@ package avalanche
 import (
 	"testing"
 
-	"github.com/ava-labs/avalanchego/snow/engine/avalanche/vertex"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/avalanche/vertex"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ava-labs/avalanchego/ids"
+	"github.com/lasthyphen/avalanchego-1.7.3/ids"
 )
 
 func TestVotingFinishesWithAbandonedDep(t *testing.T) {

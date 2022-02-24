@@ -1,8 +1,8 @@
 # Release Notes
 
-## [v1.7.3](https://github.com/ava-labs/avalanchego/releases/tag/v1.7.3)
+## [v1.7.3](https://github.com/lasthyphen/avalanchego-1.7.3/releases/tag/v1.7.3)
 
-This version is backwards compatible to [v1.7.0](https://github.com/ava-labs/avalanchego/releases/tag/v1.7.0). It is optional, but encouraged.
+This version is backwards compatible to [v1.7.0](https://github.com/lasthyphen/avalanchego-1.7.3/releases/tag/v1.7.0). It is optional, but encouraged.
 
 ### Consensus
 
@@ -30,9 +30,9 @@ This version is backwards compatible to [v1.7.0](https://github.com/ava-labs/ava
 - Fixed acceptance broadcasting over IPC.
 - Fixed 32-bit architecture builds for AvalancheGo (not Coreth).
 
-## [v1.7.2](https://github.com/ava-labs/avalanchego/releases/tag/v1.7.2)
+## [v1.7.2](https://github.com/lasthyphen/avalanchego-1.7.3/releases/tag/v1.7.2)
 
-This version is backwards compatible to [v1.7.0](https://github.com/ava-labs/avalanchego/releases/tag/v1.7.0). It is optional, but encouraged.
+This version is backwards compatible to [v1.7.0](https://github.com/lasthyphen/avalanchego-1.7.3/releases/tag/v1.7.0). It is optional, but encouraged.
 
 ### Coreth
 
@@ -62,9 +62,9 @@ This version is backwards compatible to [v1.7.0](https://github.com/ava-labs/ava
 
 - Fixed panic bug in logging library when importing from external projects.
 
-## [v1.7.1](https://github.com/ava-labs/avalanchego/releases/tag/v1.7.1)
+## [v1.7.1](https://github.com/lasthyphen/avalanchego-1.7.3/releases/tag/v1.7.1)
 
-This update is backwards compatible with [v1.7.0](https://github.com/ava-labs/avalanchego/releases/tag/v1.7.0). Please see the expected update times in the v1.7.0 release.
+This update is backwards compatible with [v1.7.0](https://github.com/lasthyphen/avalanchego-1.7.3/releases/tag/v1.7.0). Please see the expected update times in the v1.7.0 release.
 
 ### Coreth
 
@@ -74,7 +74,7 @@ This update is backwards compatible with [v1.7.0](https://github.com/ava-labs/av
 
 - Fixed vote bubbling for unverified block chits.
 
-## [v1.7.0](https://github.com/ava-labs/avalanchego/releases/tag/v1.7.0)
+## [v1.7.0](https://github.com/lasthyphen/avalanchego-1.7.3/releases/tag/v1.7.0)
 
 This upgrade adds support for issuing multiple atomic transactions into a single block and directly transferring assets between the P-chain and the C-chain.
 
@@ -110,9 +110,9 @@ The changes in the upgrade go into effect at 1 PM EST, December 2nd 2021 on Main
 
 - Removed `--snow-epoch-first-transition` and `snow-epoch-duration` as command line arguments.
 
-## [v1.6.5](https://github.com/ava-labs/avalanchego/releases/tag/v1.6.5)
+## [v1.6.5](https://github.com/lasthyphen/avalanchego-1.7.3/releases/tag/v1.6.5)
 
-This version is backwards compatible to [v1.6.0](https://github.com/ava-labs/avalanchego/releases/tag/v1.6.0). It is optional, but encouraged.
+This version is backwards compatible to [v1.6.0](https://github.com/lasthyphen/avalanchego-1.7.3/releases/tag/v1.6.0). It is optional, but encouraged.
 
 ### Bootstrapping
 
@@ -133,9 +133,9 @@ This version is backwards compatible to [v1.6.0](https://github.com/ava-labs/ava
 - Added reported uptime to pong messages to be able to better track a local node's uptime as viewed by the network.
 - Refactored request timeout registry to avoid a potential race condition.
 
-## [v1.6.4](https://github.com/ava-labs/avalanchego/releases/tag/v1.6.4)
+## [v1.6.4](https://github.com/lasthyphen/avalanchego-1.7.3/releases/tag/v1.6.4)
 
-This version is backwards compatible to [v1.6.0](https://github.com/ava-labs/avalanchego/releases/tag/v1.6.0). It is optional, but encouraged.
+This version is backwards compatible to [v1.6.0](https://github.com/lasthyphen/avalanchego-1.7.3/releases/tag/v1.6.0). It is optional, but encouraged.
 
 ### Config
 
@@ -177,9 +177,9 @@ This version is backwards compatible to [v1.6.0](https://github.com/ava-labs/ava
 
 ---
 
-## [v1.6.3](https://github.com/ava-labs/avalanchego/releases/tag/v1.6.3)
+## [v1.6.3](https://github.com/lasthyphen/avalanchego-1.7.3/releases/tag/v1.6.3)
 
-This version is backwards compatible to [v1.6.0](https://github.com/ava-labs/avalanchego/releases/tag/v1.6.0). It is optional, but encouraged.
+This version is backwards compatible to [v1.6.0](https://github.com/lasthyphen/avalanchego-1.7.3/releases/tag/v1.6.0). It is optional, but encouraged.
 
 ### Config Options
 

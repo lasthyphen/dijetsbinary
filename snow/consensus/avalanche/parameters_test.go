@@ -6,7 +6,7 @@ package avalanche
 import (
 	"testing"
 
-	"github.com/ava-labs/avalanchego/snow/consensus/snowball"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/consensus/snowball"
 )
 
 func TestParametersValid(t *testing.T) {

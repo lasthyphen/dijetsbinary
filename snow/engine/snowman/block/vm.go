@@ -4,9 +4,9 @@
 package block
 
 import (
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/snow/consensus/snowman"
-	"github.com/ava-labs/avalanchego/snow/engine/common"
+	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/consensus/snowman"
+	"github.com/lasthyphen/avalanchego-1.7.3/snow/engine/common"
 )
 
 // ChainVM defines the required functionality of a Snowman VM.

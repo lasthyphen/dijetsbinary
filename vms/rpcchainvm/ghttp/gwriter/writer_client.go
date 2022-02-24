@@ -8,7 +8,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/ava-labs/avalanchego/vms/rpcchainvm/ghttp/gwriter/gwriterproto"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/rpcchainvm/ghttp/gwriter/gwriterproto"
 )
 
 var _ io.Writer = &Client{}

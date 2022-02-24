@@ -80,7 +80,7 @@ sudo apt install avalanchego
 
 ### Binary Install
 
-Download the [latest build](https://github.com/ava-labs/avalanchego/releases/latest) for your operating system and architecture.
+Download the [latest build](https://github.com/lasthyphen/avalanchego-1.7.3/releases/latest) for your operating system and architecture.
 
 The Avalanche binary to be executed is named `avalanchego`.
 

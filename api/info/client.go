@@ -6,9 +6,9 @@ package info
 import (
 	"time"
 
-	"github.com/ava-labs/avalanchego/ids"
-	"github.com/ava-labs/avalanchego/network"
-	"github.com/ava-labs/avalanchego/utils/rpc"
+	"github.com/lasthyphen/avalanchego-1.7.3/ids"
+	"github.com/lasthyphen/avalanchego-1.7.3/network"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/rpc"
 )
 
 // Interface compliance

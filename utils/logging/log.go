@@ -14,7 +14,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/ava-labs/avalanchego/utils/perms"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/perms"
 )
 
 var (

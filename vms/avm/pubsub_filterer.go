@@ -4,9 +4,9 @@
 package avm
 
 import (
-	"github.com/ava-labs/avalanchego/api"
-	"github.com/ava-labs/avalanchego/pubsub"
-	"github.com/ava-labs/avalanchego/vms/components/djtx"
+	"github.com/lasthyphen/avalanchego-1.7.3/api"
+	"github.com/lasthyphen/avalanchego-1.7.3/pubsub"
+	"github.com/lasthyphen/avalanchego-1.7.3/vms/components/djtx"
 )
 
 var _ pubsub.Filterer = &filterer{}

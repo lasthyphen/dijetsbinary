@@ -6,7 +6,7 @@ package types
 import (
 	"encoding/json"
 
-	"github.com/ava-labs/avalanchego/utils/formatting"
+	"github.com/lasthyphen/avalanchego-1.7.3/utils/formatting"
 )
 
 // JSONByteSlice represents [[]byte] that is json marshalled to hex
